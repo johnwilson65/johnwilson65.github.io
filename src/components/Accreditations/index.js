@@ -5,19 +5,19 @@ import Container from '../Container';
 const Accreditations = ({ data }) =>
 	<aside>
     <Container>
-        <a href="http://www.chas.co.uk" rel="noopener">
+        <a href="https://www.chas.co.uk" rel="noopener">
             <Img
                 alt="Chas accredited contractor"
                 resolutions={data.chas.resolutions}
             />
         </a>
-        <a href="http://www.niceic.com/" rel="noopener">
+        <a href="https://www.niceic.com/" rel="noopener">
         <Img
             alt="NIC Approved"
             resolutions={data.nicApproved.resolutions}
         />
         </a>
-        <a href="http://www.niceic.com/" rel="noopener">
+        <a href="https://www.niceic.com/" rel="noopener">
         <Img
             alt="NIC Domestic"
             resolutions={data.nicDomestic.resolutions}
@@ -29,14 +29,14 @@ const Accreditations = ({ data }) =>
                 resolutions={data.trustedTrader.resolutions}
             />
         </a>
-        <a href="http://www.niceic.com/" rel="noopener">
+        <a href="https://www.niceic.com/" rel="noopener">
         <Img
             alt="Competent Person"
             resolutions={data.competentPerson.resolutions}
         />
         </a>
-        <a href="http://www.referenceline.com/32381" rel="noopener">
-            <img src="http://www.referenceline.com/promote-your-reputation/referenceline-promote.asp?s=468x60&amp;fn=32381&amp;l=-b" width="468" height="60" alt="Click here to see the track record of customer ratings and reviews for Castle Electrical Services Ltd at Referenceline, where reputations count" title="Click here to see the track record of customer ratings and reviews for Castle Electrical Services Ltd at Referenceline, where reputations count" />
+        <a href="https://www.referenceline.com/32381" rel="noopener">
+            <img src="https://www.referenceline.com/promote-your-reputation/referenceline-promote.asp?s=468x60&amp;fn=32381&amp;l=-b" width="468" height="60" alt="Click here to see the track record of customer ratings and reviews for Castle Electrical Services Ltd at Referenceline, where reputations count" title="Click here to see the track record of customer ratings and reviews for Castle Electrical Services Ltd at Referenceline, where reputations count" />
         </a>
     </Container>
     <style jsx>{`
