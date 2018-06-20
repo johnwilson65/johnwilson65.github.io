@@ -16,7 +16,8 @@ export default function Template({ data, transition }) {
 			<Helmet
       title={`${frontmatter.title} | Castle Electrical Services Ltd`}
       meta={[
-        { name: 'description', content: excerpt },
+				{ name: 'description', content: excerpt },
+				{ property: 'og:title', content: `${frontmatter.title}`},
         { property: 'og:type', content: 'article' },
         { property: 'og:description', content: excerpt },
         { property: 'og:url', content: `${process.env.SITE_URL}/services/${frontmatter.navtitle}` },
