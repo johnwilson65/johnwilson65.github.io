@@ -40,7 +40,8 @@ class IndexPage extends React.Component {
                 { property: 'og:description', content: pageDesc },
                 { property: 'og:url', content: `${process.env.SITE_URL}/}` },
                 { property: 'og:site_name', content: 'Castle Electrical Services Ltd'},
-                { property: 'og:image', content: `${process.env.SITE_URL}/logos/logo-1024.png`}
+                { property: 'og:image', content: `${process.env.SITE_URL}/logos/logo-1024.png`},
+                { name: 'robots', content: 'noindex, nofollow'}
               ]}
             />
             <Hero scrollHandler={this.scrollHandler} sizes={data.headerImage.sizes} />
