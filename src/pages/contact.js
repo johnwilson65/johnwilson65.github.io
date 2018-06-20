@@ -15,6 +15,7 @@ const Contact = ({ data, transition }) =>
       title={`${pageTitle} | Castle Electrical Services Ltd`}
       meta={[
         { name: 'description', content: pageDesc },
+        { property: 'og:title', content: `${pageTitle}`},
         { property: 'og:type', content: 'article' },
         { property: 'og:description', content: pageDesc },
         { property: 'og:url', content: `${process.env.SITE_URL}/contact` },
