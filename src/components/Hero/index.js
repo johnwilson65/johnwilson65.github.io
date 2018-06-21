@@ -1,7 +1,5 @@
 import React from 'react';
-import ReactDom from 'react-dom';
-import Link from 'gatsby-link';
-import Img from 'gatsby-image';
+import Img from '../ImageWrap';
 import theme from '../../theme';
 import Container from '../Container';
 import { MdArrowDropDown as Arrow } from 'react-icons/lib/md';

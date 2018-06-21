@@ -1,6 +1,5 @@
 import React from 'react';
 import Container from '../Container';
-import Img from 'gatsby-image';
 import theme from '../../theme';
 import Link from 'gatsby-link';
 import { MdEmail, MdLocationOn, MdPhone, MdPhoneAndroid } from 'react-icons/lib/md';

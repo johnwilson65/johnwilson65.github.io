@@ -1,5 +1,4 @@
 import React from 'react';
-import Img from 'gatsby-image';
 import Helmet from 'react-helmet';
 import theme from '../theme';
 import { Featured } from '../components/Hero';
