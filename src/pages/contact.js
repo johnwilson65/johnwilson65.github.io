@@ -115,27 +115,27 @@ export default Contact;
 export const aboutQuery = graphql`
   query ContactPageQuery {
     chas: imageSharp(id: { regex: "/chas-accredited-758x403/" }) {
-      resolutions(width: 100, height: 53) {
+      resolutions(width: 200, height: 106, quality: 90) {
         ...GatsbyImageSharpResolutions
       }
     }
     nicApproved: imageSharp(id: { regex: "/nic-approved-245x141/" }) {
-      resolutions(width: 100, height: 57) {
+      resolutions(width: 200, height: 114, quality: 90) {
         ...GatsbyImageSharpResolutions
       }
     }
     nicDomestic: imageSharp(id: { regex: "/nic-domestic-283x144/" }) {
-      resolutions(width: 100, height: 51) {
+      resolutions(width: 200, height: 102, quality: 90) {
         ...GatsbyImageSharpResolutions
       }
     }
     trustedTrader: imageSharp(id: { regex: "/norfolk-trusted-trader-398x188/" }) {
-      resolutions(width: 100, height: 47) {
+      resolutions(width: 200, height: 94, quality: 90) {
         ...GatsbyImageSharpResolutions
       }
     }
     competentPerson: imageSharp(id: { regex: "/reg-competent-person/" }) {
-      resolutions(width: 200, height: 67) {
+      resolutions(width: 400, height: 134, quality: 90) {
         ...GatsbyImageSharpResolutions
       }
     }

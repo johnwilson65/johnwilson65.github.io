@@ -54,6 +54,7 @@ module.exports = {
    'gatsby-plugin-react-helmet',
    'gatsby-plugin-styled-jsx',
    'gatsby-plugin-sitemap',
-   'gatsby-plugin-offline'
+   'gatsby-plugin-offline',
+   'gatsby-plugin-meta-redirect'
   ],
 }

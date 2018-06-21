@@ -9,8 +9,15 @@
  const path = require('path');
 
  exports.createPages = ({ boundActionCreators, graphql }) => {
- 	const { createPage } = boundActionCreators;
+ 	const { createPage, createRedirect } = boundActionCreators;
 
+	createRedirect({
+		frompath:'/default.html',
+		isPermanent: true,
+		redirectInBrowser: true,
+		toPath: '/'
+	})
+	
  	const serviceTemplate = path.resolve(`src/templates/serviceTemplate.js`);
 
  	return graphql(`
