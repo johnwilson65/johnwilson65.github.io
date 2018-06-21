@@ -198,6 +198,12 @@ class Header extends Component {
 						}
 					}
 
+					@media(min-width: ${theme.breakpoints.lg}px) and ( max-height: 650px) {
+					  .main-header {
+							position: relative !important;
+						}
+					}
+
 					@media(min-width: ${theme.breakpoints.lg}px) {
 						.logo {
 							order: 1;

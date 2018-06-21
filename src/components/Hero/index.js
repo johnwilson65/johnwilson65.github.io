@@ -95,7 +95,7 @@ const Hero = (props) =>
     		line-height: 0;
     		outline: none;
     		border: none;
-    		margin-top: 6rem;
+    		margin-top: 3rem;
     		font-size: 6rem;
     		border-radius: 3rem;
     	}
@@ -160,6 +160,12 @@ const Hero = (props) =>
     			font-size: 1em;
     		}
     	}
+
+		@media(min-width: ${theme.breakpoints.lg}px) and ( max-height: 650px) {
+			button { 
+				display: none !important;
+			}
+		}
 
     	@media(min-width: ${theme.breakpoints.lg}px) {
     		button {
