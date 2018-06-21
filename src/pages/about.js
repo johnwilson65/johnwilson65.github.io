@@ -57,27 +57,27 @@ export default SecondPage
 export const aboutQuery = graphql`
   query AboutPageQuery {
     chas: imageSharp(id: { regex: "/chas-accredited-758x403/" }) {
-      resolutions(width: 200, height: 106, quality: 90) {
+      resolutions(width: 100, height: 53, quality: 90) {
         ...GatsbyImageSharpResolutions_withWebp
       }
     }
     nicApproved: imageSharp(id: { regex: "/nic-approved-245x141/" }) {
-      resolutions(width: 200, height: 114, quality: 90) {
+      resolutions(width: 100, height: 57, quality: 90) {
         ...GatsbyImageSharpResolutions_withWebp
       }
     }
     nicDomestic: imageSharp(id: { regex: "/nic-domestic-283x144/" }) {
-      resolutions(width: 200, height: 102, quality: 90) {
+      resolutions(width: 100, height: 51, quality: 90) {
         ...GatsbyImageSharpResolutions_withWebp
       }
     }
     trustedTrader: imageSharp(id: { regex: "/norfolk-trusted-trader-398x188/" }) {
-      resolutions(width: 200, height: 94, quality: 90) {
+      resolutions(width: 100, height: 47, quality: 90) {
         ...GatsbyImageSharpResolutions_withWebp
       }
     }
     competentPerson: imageSharp(id: { regex: "/reg-competent-person/" }) {
-      resolutions(width: 300, height: 100, quality: 90) {
+      resolutions(width: 200, height: 67, quality: 90) {
         ...GatsbyImageSharpResolutions_withWebp
       }
     }

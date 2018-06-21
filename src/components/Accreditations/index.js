@@ -5,17 +5,17 @@ import Container from '../Container';
 const Accreditations = ({ data }) =>
 	<aside>
     <Container>
-        <a href="https://www.chas.co.uk" rel="noopener">
-            <Img
-                alt="Chas accredited contractor"
-                resolutions={data.chas.resolutions}
-            />
-        </a>
         <a href="https://www.niceic.com/" rel="noopener">
         <Img
             alt="NIC Approved"
             resolutions={data.nicApproved.resolutions}
         />
+        </a>
+        <a href="https://www.chas.co.uk" rel="noopener">
+            <Img
+                alt="Chas accredited contractor"
+                resolutions={data.chas.resolutions}
+            />
         </a>
         <a href="https://www.niceic.com/" rel="noopener">
         <Img
