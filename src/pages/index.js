@@ -27,10 +27,10 @@ class IndexPage extends React.Component {
 
   render() {
 
-    const { data, transition, location } = this.props
+    const { data } = this.props
 
     return (
-        <main id="home" style={ transition && transition.style }>
+        <main id="home">
             <Helmet
               title={`${pageTitle} | Castle Electrical Services Ltd`}
               meta={[
@@ -112,27 +112,27 @@ export const pageQuery = graphql`
       }
     }
     chas: imageSharp(id: { regex: "/chas-accredited-758x403/" }) {
-      resolutions(width: 200, height: 106, quality: 90) {
+      resolutions(width: 200, height: 106, quality: 90, toFormat: WEBP) {
         ...GatsbyImageSharpResolutions
       }
     }
     nicApproved: imageSharp(id: { regex: "/nic-approved-245x141/" }) {
-      resolutions(width: 200, height: 114, quality: 90) {
+      resolutions(width: 200, height: 114, quality: 90, toFormat: WEBP) {
         ...GatsbyImageSharpResolutions
       }
     }
     nicDomestic: imageSharp(id: { regex: "/nic-domestic-283x144/" }) {
-      resolutions(width: 200, height: 102, quality: 90) {
+      resolutions(width: 200, height: 102, quality: 90, toFormat: WEBP) {
         ...GatsbyImageSharpResolutions
       }
     }
     trustedTrader: imageSharp(id: { regex: "/norfolk-trusted-trader-398x188/" }) {
-      resolutions(width: 200, height: 94, quality: 90) {
+      resolutions(width: 200, height: 94, quality: 90, toFormat: WEBP) {
         ...GatsbyImageSharpResolutions
       }
     }
     competentPerson: imageSharp(id: { regex: "/reg-competent-person/" }) {
-      resolutions(width: 400, height: 134, quality: 90) {
+      resolutions(width: 400, height: 134, quality: 90, toFormat: WEBP) {
         ...GatsbyImageSharpResolutions
       }
     }

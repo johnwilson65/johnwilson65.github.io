@@ -9,8 +9,8 @@ import { MdEmail, MdLocationOn, MdPhone, MdPhoneAndroid } from 'react-icons/lib/
 const pageTitle = "Contact";
 const pageDesc = `A well established company, we provide the very best in electrical, fire & security systems supplying only the best quality products and services. Established for over 20 years, with over 30 years experience, our success is based on referrals from our great many satisfied customers.`;
 
-const Contact = ({ data, transition }) =>
-	<main id="contact" style={ transition && transition.style }>
+const Contact = ({ data }) =>
+	<main id="contact">
 		<Helmet
       title={`${pageTitle} | Castle Electrical Services Ltd`}
       meta={[
@@ -115,27 +115,27 @@ export default Contact;
 export const aboutQuery = graphql`
   query ContactPageQuery {
     chas: imageSharp(id: { regex: "/chas-accredited-758x403/" }) {
-      resolutions(width: 200, height: 106, quality: 90) {
+      resolutions(width: 200, height: 106, quality: 90, toFormat: WEBP) {
         ...GatsbyImageSharpResolutions
       }
     }
     nicApproved: imageSharp(id: { regex: "/nic-approved-245x141/" }) {
-      resolutions(width: 200, height: 114, quality: 90) {
+      resolutions(width: 200, height: 114, quality: 90, toFormat: WEBP) {
         ...GatsbyImageSharpResolutions
       }
     }
     nicDomestic: imageSharp(id: { regex: "/nic-domestic-283x144/" }) {
-      resolutions(width: 200, height: 102, quality: 90) {
+      resolutions(width: 200, height: 102, quality: 90, toFormat: WEBP) {
         ...GatsbyImageSharpResolutions
       }
     }
     trustedTrader: imageSharp(id: { regex: "/norfolk-trusted-trader-398x188/" }) {
-      resolutions(width: 200, height: 94, quality: 90) {
+      resolutions(width: 200, height: 94, quality: 90, toFormat: WEBP) {
         ...GatsbyImageSharpResolutions
       }
     }
     competentPerson: imageSharp(id: { regex: "/reg-competent-person/" }) {
-      resolutions(width: 400, height: 134, quality: 90) {
+      resolutions(width: 400, height: 134, quality: 90, toFormat: WEBP) {
         ...GatsbyImageSharpResolutions
       }
     }
