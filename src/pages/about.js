@@ -23,6 +23,7 @@ const SecondPage = ({ data }) => (
         { property: 'og:image', content: `${process.env.SITE_URL}/logos/logo-1024.png`},
         { name: 'robots', content: 'noindex, nofollow'}
       ]}
+      htmlAttributes={{'lang': 'en'}}
     />
     <Accreditations data={ data } />
     <Container>
@@ -56,28 +57,28 @@ export default SecondPage
 export const aboutQuery = graphql`
   query AboutPageQuery {
     chas: imageSharp(id: { regex: "/chas-accredited-758x403/" }) {
-      resolutions(width: 200, height: 106, quality: 90, toFormat: WEBP) {
-        ...GatsbyImageSharpResolutions
+      resolutions(width: 200, height: 106, quality: 90) {
+        ...GatsbyImageSharpResolutions_withWebp
       }
     }
     nicApproved: imageSharp(id: { regex: "/nic-approved-245x141/" }) {
-      resolutions(width: 200, height: 114, quality: 90, toFormat: WEBP) {
-        ...GatsbyImageSharpResolutions
+      resolutions(width: 200, height: 114, quality: 90) {
+        ...GatsbyImageSharpResolutions_withWebp
       }
     }
     nicDomestic: imageSharp(id: { regex: "/nic-domestic-283x144/" }) {
-      resolutions(width: 200, height: 102, quality: 90, toFormat: WEBP) {
-        ...GatsbyImageSharpResolutions
+      resolutions(width: 200, height: 102, quality: 90) {
+        ...GatsbyImageSharpResolutions_withWebp
       }
     }
     trustedTrader: imageSharp(id: { regex: "/norfolk-trusted-trader-398x188/" }) {
-      resolutions(width: 200, height: 94, quality: 90, toFormat: WEBP) {
-        ...GatsbyImageSharpResolutions
+      resolutions(width: 200, height: 94, quality: 90) {
+        ...GatsbyImageSharpResolutions_withWebp
       }
     }
     competentPerson: imageSharp(id: { regex: "/reg-competent-person/" }) {
-      resolutions(width: 400, height: 134, quality: 90, toFormat: WEBP) {
-        ...GatsbyImageSharpResolutions
+      resolutions(width: 300, height: 100, quality: 90) {
+        ...GatsbyImageSharpResolutions_withWebp
       }
     }
   }

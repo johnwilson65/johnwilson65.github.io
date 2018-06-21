@@ -50,6 +50,7 @@ const Accreditations = ({ data }) =>
       aside a {
           display: block;
           padding: 1em;
+          max-width: 100%;
       }
 
       aside img {
