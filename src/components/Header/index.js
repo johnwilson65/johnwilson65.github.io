@@ -145,7 +145,6 @@ class Header extends Component {
 
 					.logo :global(svg) {
 						width: 100%;
-						height: auto;
 					}
 
 					.logo p {
