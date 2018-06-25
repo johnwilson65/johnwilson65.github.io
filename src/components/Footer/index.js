@@ -32,12 +32,12 @@ const Footer = ({ services }) =>
 	          </address>
 	          <p><MdEmail />Email: <a href="mailto:castle.electrical@btconnect.com">castle.electrical@btconnect.com</a></p>
 		        <p><MdPhone />Landline: <a href="tel:01603507222">01603 507222</a></p>
-		        <p><MdPhoneAndroid />Mobile: <a href="tel:0777151876">0777151876</a></p>
+		        <p><MdPhoneAndroid />Mobile: <a href="tel:07771512876">07771 512876</a></p>
 					</div>
 				</div>
 			</Container>
 			<Container>
-				<p className="copy-info">Copyright &copy;{(new Date().getFullYear())} Castle Electrical Services Ltd (Reg No. 07027862). All Rights Reserved.</p>
+				<p className="copy-info">Copyright &copy;{(new Date().getFullYear())} Castle Electrical Services Ltd (Reg No. 7027862). All Rights Reserved.</p>
 			</Container>
 		</div>
 		<div className="site-attribution">

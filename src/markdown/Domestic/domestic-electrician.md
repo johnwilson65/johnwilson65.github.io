@@ -5,7 +5,7 @@ navtitle: "Domestic"
 featuredImage: "./domestic-lighting.jpg"
 ---
 
-We are Domestic Electricians and have the qualifications and experience to cover all your Domestic electrical needs in houses, bungalows, gardens, sheds, ponds etc.
+We are Domestic Electricians and have the qualifications and experience to cover all your Domestic electrical  needs in houses, flats, bungalows, cottages, grade 2 listed buildings, thatched properties, garages, student lets and gardens etc.
 
 Castle Electrical Services Ltd are based in Eaton, Norwich and cover most of Norfolk. We are NICEIC approved contractors and members of CHAS the health and safety accreditation. Whether you need an extra socket or a complete rewire we will send one of our representatives to come and see you. Once we have understood your requirements we will prepare an electrical quotation free of charge and with no obligation.
 
