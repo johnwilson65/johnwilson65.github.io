@@ -32,7 +32,7 @@ const Contact = ({ data }) =>
       <div className="contact">
         <h3><MdEmail />Email: <a href="mailto:castle.electrical@btconnect.com">castle.electrical@btconnect.com</a></h3>
         <h3><MdPhone />Landline: <a href="tel:01603507222">01603 507222</a></h3>
-        <h3><MdPhoneAndroid />Mobile: <a href="tel:0777151876">0777151876</a></h3>
+        <h3><MdPhoneAndroid />Mobile: <a href="tel:07771512876">07771 512876</a></h3>
       </div>
 
       <h3><MdLocationOn/>Address:</h3>
