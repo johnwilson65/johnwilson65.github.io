@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Castle Electrical Services Ltd',
-    siteUrl: 'http://castle-electrical.org.uk'
+    siteUrl: 'http://www.castle-electrical.org.uk'
   },
   plugins: [
    {

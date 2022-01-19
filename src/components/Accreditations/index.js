@@ -11,10 +11,10 @@ const Accreditations = ({ data }) =>
             resolutions={data.nicApproved.resolutions}
         />
         </a>
-        <a href="https://www.chas.co.uk" rel="noopener">
+        <a href="https://www.safecontractor.com/" rel="noopener">
             <Img
-                alt="Chas accredited contractor"
-                resolutions={data.chas.resolutions}
+                alt="Safe Contractor Approved"
+                resolutions={data.safeContractor.resolutions}
             />
         </a>
         <a href="https://www.niceic.com/" rel="noopener">

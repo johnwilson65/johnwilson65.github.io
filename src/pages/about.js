@@ -55,8 +55,8 @@ export default SecondPage
 
 export const aboutQuery = graphql`
   query AboutPageQuery {
-    chas: imageSharp(id: { regex: "/chas-accredited-758x403/" }) {
-      resolutions(width: 100, height: 53, quality: 100) {
+    safeContractor: imageSharp(id: { regex: "/safecontractor-480x480/" }) {
+      resolutions(width: 57, height: 57, quality: 100) {
         ...GatsbyImageSharpResolutions_withWebp
       }
     }

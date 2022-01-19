@@ -42,7 +42,7 @@ const Footer = ({ services }) =>
 		</div>
 		<div className="site-attribution">
 			<Container>
-				<p>Site By: <a href="https://designspin.co.uk/website-design">Design Spin</a></p>
+				<p>Site By: <a href="https://www.castle-electrical.org.uk">Castle Electrical Services Ltd</a></p>
 			</Container>
 		</div>
 		<script
@@ -52,9 +52,9 @@ const Footer = ({ services }) =>
 					"@context":"http://schema.org",
 					"@type":"LocalBusiness",
 					"name":"Castle Electrical Services Ltd",
-					"url":"https://castle-electrical.org.uk",
-					"logo":"https://castle-electrical.org.uk/logos/logo-1024.png",
-					"image":"https://castle-electrical.org.uk/logos/logo-1024.png",
+					"url":"https://www.castle-electrical.org.uk",
+					"logo":"https://www.castle-electrical.org.uk/logos/logo-1024.png",
+					"image":"https://www.castle-electrical.org.uk/logos/logo-1024.png",
 					"telephone":"+44 (0)1603 507222",
 					"email":"castle.electrical@btconnect.com",
 					"address":{"@type":"PostalAddress","streetAddress":"43 Chestnut Hill",
